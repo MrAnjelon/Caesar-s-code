@@ -4,8 +4,8 @@ new_word = ''
 step = int(input())
 
 for i in massage:
-    find_place = eng_alphabet.find(i) #вычисляем места стимволов
-    new_place = find_place + step #сдвигаем символ на указанный шаг
+    find_place = eng_alphabet.find(i) 
+    new_place = find_place + step 
     if i in eng_alphabet:
         new_word +=eng_alphabet[new_place]
     else:
